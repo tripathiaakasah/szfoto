@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/3001728aa0.js" crossorigin="anonymous"></script>
+    <title>O MNĚ | szfoto.cz</title>
+</head>
+
+<body>
+
+    <nav class="navbar nav fixed-top navbar-expand-lg navbar-light bg-light navbar_section">
+        <div class="container-fluid">
+
+            <div class="row m-0 w-100">
+                <div class="col-lg-2 d-none d-lg-block p-0"></div>
+                <div class="col-lg-2 col-6 p-0">
+                     <a class="navbar-brand" href="./index.html"> <img src="./assests/podpisblack.png" class="logo" alt=""></a>
+                </div>
+
+                <div class="col-lg-2 d-none d-lg-block p-0"></div>
+
+                <div class="col-6 p-0 d-flex d-lg-none justify-content-end align-items-center">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+                <div class="col-lg-5 p-0 d-lg-flex align-items-center links_section">
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav align-items-center">
+                            <a class="nav-link" aria-current="page" href="./index.html">DOMŮ</a>
+                            <a class="nav-link active" href="./about.html">O MNĚ</a>
+                            <a class="nav-link" href="./details.html">SLUŽBY</a>
+                            <a class="nav-link" href="./more-page.html">MOJE PRÁCE</a>
+                            <a class="nav-link" href="./contact.html">KONTAKT</a>
+                            <a class="nav-link" href="https://www.instagram.com/szfotocz/" target="_blank">
+                                <img width="30px" src="./assests/5ecec78673e4440004f09e77-36x36.png" alt="">
+                            </a>
+                            <a class="nav-link" href="https://www.facebook.com/szfotocz/" target="_blank">
+                                <img width="15px" src="./assests/facebook-cerne-22x36.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </nav>
+
+    <div class="section_one section_one_about row m-0">
+        <div class="col-lg-2 p-0"></div>
+
+        <div class="col-lg-4 col-12 p-0">
+            <img src="./assests/about.jpg" alt="">
+        </div>
+
+        <div class="col-lg-4 col-12 p-0 ps-lg-5 mt-lg-0 mt-4">
+            <div class="row m-0">
+                <div class="heading_name p-0">
+                    Svatia Zaplatilová
+                </div>
+            </div>
+
+            <div class="row m-0 mt-5">
+                <div class="description p-0">
+                    Focení je můj velký koníček, kterému se věnuji již dlouho a neustále se snažím zlepšovat a učit se
+                    nové věci. Mám své čtyři chlupáče a také poskytuji dočasnou péči pejskům z útulku. Dlouhodobě se
+                    také věnuji chovu a výcviku koní. Ráda se s Vámi setkám a pokusím se zachytit jedinečnost a krásu
+                    každého okamžiku.
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-2 p-0"></div>
+    </div>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+    <script>
+        window.addEventListener('scroll', (e) => {
+            const nav = document.querySelector('.nav');
+            if (window.pageYOffset > 0) {
+                nav.classList.add("add-shadow");
+            } else {
+                nav.classList.remove("add-shadow");
+            }
+        });
+    </script>
+
+</body>
+
+</html>
